@@ -44,3 +44,47 @@
 
 // //time complexity - O(n)
 // //space complexity - O(1)
+
+
+// ------------------------Palindrome Number
+
+// restriction - canno't convert to string
+
+// var isPalindrome = function(x) {
+//     let reversed = 0
+//     let starter = x
+//     if(x < 0){
+//         return false
+//     }
+    
+//     while(x>0){
+//         reversed = (reversed*10)+(x%10)
+//         x = Math.floor(x/10)
+//     }
+
+//     return reversed === starter ? true : false
+    
+// };
+
+// isPalindrome(121)
+
+
+// -----------------------Roman to Integer
+
+// Symbol       Value
+// I             1
+// V             5
+// X             10
+// L             50
+// C             100
+// D             500
+// M             1000
+
+var romanToInt = function(s) {
+    let romanMap = {
+      
+    }
+};
+
+
+romanToInt("LVIII")
